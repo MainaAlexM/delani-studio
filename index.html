@@ -14,8 +14,20 @@
     <!-- Body Container -->
     <div class="container-fluid">
 
+        <div class="container">
+            <nav class="nav nav-pills nav-justified container-fluid sticky-top navbar-nav-scroll">
+                <a class="nav-link" aria-current="page" href="#delani">Home</a>
+                <a class="nav-link" href="#about">About Us</a>
+                <a class="nav-link" href="#services">Services</a>
+                <a class="nav-link" href="#we-do">What We Do</a>
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </nav>
+    
+        </div>
+        
         <!-- section 1 -->
-        <div class="landing">
+        <div id="delani" class="landing">
                     <div class="logo">
                         <img src="./images/logo.png" alt="logo">
                     </div>
@@ -44,50 +56,53 @@
             Based on the requirements, we can provide a complete offering or just the pieces you need.</P>
         </div>  
 
-            <div class="we-do container">
+        <div id="we-do" class="we-do container">
+            <h2>What We Do</h2>
+            <div class="tasks">
                 <img src="./images/icons/design_icon.png" alt="designs">
                 <img src="./images/icons/dev_icon.png" alt="development">
                 <img src="./images/icons/product_icon.png" alt="products">
             </div>
+        </div>
 
-            <div class="portfolio container">
+        <div id="portfolio" class="portfolio container">
 
-                <h2>PORTFOLIO</h2>
-                <div class="port1">
-                    <img src="./images/port/img1.jpg" alt="image1">
-                    <img src="./images/port/img2.jpg" alt="image2">
-                    <img src="./images/port/img3.jpg" alt="image3">
-                    <img src="./images/port/img4.jpg" alt="image4">
-                </div>
-                <div class="port1">
-                    <img src="./images/port/work5.jpg" alt="image5">
-                    <img src="./images/port/work6.jpg" alt="image6">
-                    <img src="./images/port/work7.jpg" alt="image7">
-                    <img src="./images/port/work8.jpg" alt="image8">
-                </div>
-
+            <h2>PORTFOLIO</h2>
+            <div class="port1">
+                <img src="./images/port/img1.jpg" alt="image1">
+                <img src="./images/port/img2.jpg" alt="image2">
+                <img src="./images/port/img3.jpg" alt="image3">
+                <img src="./images/port/img4.jpg" alt="image4">
+            </div>
+            <div class="port1">
+                <img src="./images/port/work5.jpg" alt="image5">
+                <img src="./images/port/work6.jpg" alt="image6">
+                <img src="./images/port/work7.jpg" alt="image7">
+                <img src="./images/port/work8.jpg" alt="image8">
             </div>
 
-            <div class="contact">
-                <h2>CONTACT US</h2>
-                <form action="submit">
-                    
-                    <div class="inputs container">
-                        <div class="info">
-                            <input type="text" id="name" value="name" required placeholder="Name">
+        </div>
 
-                        <input type="email" id="mail" value="name" required placeholder="Name">
-                        </div>
+        <div id="contact" class="contact">
+            <h2>CONTACT US</h2>
+            <form action="submit">
+                
+                <div class="inputs container">
+                    <div class="info">
+                        <input type="text" id="name" value="name" required placeholder="Name">
+
+                    <input type="email" id="mail" value="name" required placeholder="Name">
                     </div>
+                </div>
 
-                    <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
+                <textarea name="message" id="textarea" cols="30" rows="10"></textarea>
 
-                </form>
+            </form>
 
-            </div>
-            
-            <div class="footer">
-               <div class="social">
+        </div>
+        
+        <div id="footer" class="footer">
+            <div class="social">
                 <a href=""><img src="./images/icons/twitter.png" alt="twitter"></a>
                 <a href=""><img src="./images/icons/dribble.png" alt="dribble"></a>
                 <a href=""><img src="./images/icons/facebook.png" alt="facebook"></a>
@@ -97,15 +112,16 @@
                 <a href=""><img src="./images/icons/behance.png" alt="behance"></a>
                 <a href=""><img src="./images/icons/pinterest.png" alt="pinterest"></a>
                 <a href=""><img src="./images/icons/flickr.png" alt="flickr"></a>
-               </div>
-
-               <div class="copy">
-                   <p id="copyright"></p>
-               </div>
             </div>
+
+            <div class="copy">
+                <p id="copyright"></p>
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
