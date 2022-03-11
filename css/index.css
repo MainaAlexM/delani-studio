@@ -1,0 +1,73 @@
+*{
+font-family: 'Poppins', sans-serif;
+}
+.nav{
+    background-color: rgb(245, 186, 186);    
+    height: 10vh;
+    padding: 1.5rem 0rem;
+    font-size: larger;
+}
+.sticky{
+    position: sticky;
+    top:0;
+}
+.nav ul li a{
+    color: white;
+}
+.landing{
+    background-image: url(../images/landing.jpg);
+    height: 100vh;
+}
+.innerContent{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* }
+.sticky{
+    position: fixed;
+    top: 0;
+    /* padding-top: 70px; */
+
+    /* 
+    height: 5rem;
+    background: rgb(223, 207, 207 0.4);
+    margin: 0.2rem 0.1rem; */
+/* }
+.landing{
+    background-image: url(../images/);
+} */
+/* .main-body{
+    padding-top: 70px;
+} */
+/* .section{
+    margin-top: 100px;
+}
+html{
+    scroll-behavior: smooth;
+} */
