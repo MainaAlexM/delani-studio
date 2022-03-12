@@ -73,6 +73,20 @@ font-family: 'Poppins', sans-serif;
 }
 
 
+.portfolio{
+    text-align: center;
+    /* padding: 1rem 1rem 3rem; */
+}
+.portfolio img{
+    height: 100%;
+}
+    /* display: flex;
+    flex-direction: row; *
+} */
+
+.port{
+    margin: 4rem;
+}
 
 
 
