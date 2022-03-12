@@ -46,6 +46,19 @@ font-family: 'Poppins', sans-serif;
 .about p{
     margin-top: 0.4rem;
 }
+.services{
+    background-image: url(../images/services.jpg);
+    height: 60vh;
+}
+.serv{
+    text-align: center;
+    color: white;
+    padding-top: 10rem;
+}
+.serv p{
+    margin-top: 0.4rem;
+    font-size: large;
+}
 
 
 
