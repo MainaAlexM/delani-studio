@@ -37,6 +37,15 @@ font-family: 'Poppins', sans-serif;
     padding-top: 5rem;
 }
 
+/* About section */
+.about{
+    margin: 3rem auto 1rem auto;
+    text-align: center;
+    height: 35vh;
+}
+.about p{
+    margin-top: 0.4rem;
+}
 
 
 
