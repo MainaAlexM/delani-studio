@@ -87,7 +87,29 @@ font-family: 'Poppins', sans-serif;
 .port{
     margin: 4rem;
 }
+.contact{
+    background-image: url(../images/contact.jpg);
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+}
+.info input{
+    width: 35%;
 
+}
+textarea{
+    width: 50%;
+}
+.info input, textarea{
+    margin: 2rem auto;
+    opacity:0 ;
+    /* color: white; */
+    border: solid white thin;
+    background: none;
+}
+.footer{
+    
+}
 
 
 
