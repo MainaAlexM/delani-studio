@@ -1,8 +1,12 @@
 *{
 font-family: 'Poppins', sans-serif;
 }
+/* body{
+    margin-top: -10vh;
+
+} */
 .nav{
-    background-color: rgb(245, 186, 186);    
+    background-color: rgb(236, 220, 220);    
     height: 10vh;
     padding: 1.5rem 0rem;
     font-size: larger;
@@ -16,15 +20,22 @@ font-family: 'Poppins', sans-serif;
 }
 .landing{
     background-image: url(../images/landing.jpg);
-    height: 100vh;
+    height: 90vh;
 }
 .innerContent{
     text-align: center;
+    padding-top: 12rem;
+    color: white;
 }
-
-
-
-
+.logo{
+    padding-bottom: 2rem;
+}
+.innerContent h1{
+    margin: 2rem 0rem;
+}
+.mouse{
+    padding-top: 5rem;
+}
 
 
 
