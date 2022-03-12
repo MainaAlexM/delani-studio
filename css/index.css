@@ -109,8 +109,14 @@ textarea{
     border: solid white thin;
     background: none;
 }
-.footer{
-    
+.social{
+    justify-content: space-around;
+    width: 50%;
+    margin: 2rem auto;
+}
+.copy{
+    text-align: center;
+    height: 7vh;
 }
 
 
