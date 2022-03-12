@@ -59,6 +59,18 @@ font-family: 'Poppins', sans-serif;
     margin-top: 0.4rem;
     font-size: large;
 }
+.we-do{
+    text-align: center;
+    padding: 3rem 0rem;
+}
+.tasks{
+    display: flex;
+    justify-content:space-between;
+    padding: 3rem 0rem;
+}
+.role p{
+    margin: 2.5rem auto;
+}
 
 
 
