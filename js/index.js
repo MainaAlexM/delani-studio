@@ -32,3 +32,9 @@ $(document).ready(function() {
         $(".role3").toggle();
     });
 });
+
+// Year function
+var date = new Date();
+    year = date.getFullYear();
+
+    document.getElementById("year").innerHTML = year;      
