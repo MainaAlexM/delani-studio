@@ -11,10 +11,10 @@ font-family: 'Poppins', sans-serif;
     padding: 1.5rem 0rem;
     font-size: larger;
 }
-.sticky{
+/* .sticky{
     position: sticky;
     top:0;
-}
+} */
 .nav ul li a{
     color: white;
 }
