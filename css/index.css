@@ -97,6 +97,48 @@ font-family: 'Poppins', sans-serif;
     margin: 4rem;
 }
 
+/* Portfolio Overlay Styling */
+.image{
+    position: relative;
+    /* margin: 0.5em; */
+}
+.image img{
+    display: block;
+    width: 100%;
+}
+.image-overlay{
+    position: absolute;
+    /* margin: 0.5em 0em 0.5em; */
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.image-overlay--blur{
+    backdrop-filter: blur(5px);
+}
+.image-overlay--primary{
+    background: #957a00;
+}
+.image-overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+.image-overlay:hover {
+    opacity: 1;
+}
+
+.image-overlay:hover > * {
+    transform: translateY(0);
+}
+.image h4{
+    padding: 2em 0em 0.2em;
+}
 /* Contact us section */
 .contact{
     background-image: url(../images/contact.jpg);
