@@ -74,6 +74,7 @@ font-family: 'Poppins', sans-serif;
 
 
 .portfolio{
+    width: 100%;
     text-align: center;
     /* padding: 1rem 1rem 3rem; */
 }
@@ -95,6 +96,7 @@ font-family: 'Poppins', sans-serif;
 }
 .contact h2{
     padding: 3rem 0rem;
+    color: white;
 }
 .info input{
     width: 35%;
@@ -102,6 +104,13 @@ font-family: 'Poppins', sans-serif;
 }
 textarea{
     width: 50%;
+    padding-bottom: 1rem;
+}
+textarea::-webkit-input-placeholder {
+    color: white;
+}
+input::-webkit-input-placeholder {
+    color: white;
 }
 .info input, textarea{
     margin: 2rem auto;
