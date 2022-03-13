@@ -34,7 +34,7 @@ font-family: 'Poppins', sans-serif;
     margin: 2rem 0rem;
 }
 .mouse{
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 /* About section */
@@ -46,6 +46,8 @@ font-family: 'Poppins', sans-serif;
 .about p{
     margin-top: 0.4rem;
 }
+
+/* Services section */
 .services{
     background-image: url(../images/services.jpg);
     height: 60vh;
@@ -59,6 +61,8 @@ font-family: 'Poppins', sans-serif;
     margin-top: 0.4rem;
     font-size: large;
 }
+
+/* What we do section */
 .we-do{
     text-align: center;
     padding: 3rem 0rem;
@@ -69,38 +73,31 @@ font-family: 'Poppins', sans-serif;
     padding: 3rem 0rem;
 }
 .role p{
-    margin: 2.5rem auto;
+    margin: 2.5rem auto 0.5rem;
 }
 
-
+/* Portfolio section */
 .portfolio{
     width: 100%;
     text-align: center;
-    /* padding: 1rem 1rem 3rem; */
 }
-.portfolio img{
-    height: 100%;
-}
-    /* display: flex;
-    flex-direction: row; *
-} */
-
 .port{
     margin: 4rem;
 }
+
+/* Contact us section */
 .contact{
     background-image: url(../images/contact.jpg);
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
     text-align: center;
 }
 .contact h2{
-    padding: 3rem 0rem;
+    padding: 3rem 0rem 1rem;
     color: white;
 }
 .info input{
     width: 35%;
-
 }
 textarea{
     width: 50%;
@@ -118,6 +115,8 @@ input::-webkit-input-placeholder {
     border: solid white thin;
     background: none;
 }
+
+/* footer section */
 .social{
     justify-content: space-around;
     width: 50%;
