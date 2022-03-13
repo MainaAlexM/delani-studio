@@ -68,12 +68,14 @@ font-family: 'Poppins', sans-serif;
     padding: 3rem 0rem;
 }
 .tasks{
-    display: flex;
-    justify-content:space-between;
     padding: 3rem 0rem;
 }
-.role p{
+.tasks p{
     margin: 2.5rem auto 0.5rem;
+}
+.hidden-role1, .hidden-role2, .hidden-role3{
+    display: none;
+    text-align: center;
 }
 
 /* Portfolio section */
