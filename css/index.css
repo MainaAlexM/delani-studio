@@ -64,8 +64,17 @@ font-family: 'Poppins', sans-serif;
 
 /* What we do section */
 .we-do{
+    height: 60vh;
     text-align: center;
     padding: 3rem 0rem;
+    overflow: hidden;
+}
+.click1, .click2, .click3, .hidden1-h3, .hidden2-h3, .hidden3-h3{
+    cursor: pointer;
+    }
+    
+.hidden{
+    text-decoration: underline;
 }
 .tasks{
     padding: 3rem 0rem;
@@ -73,7 +82,7 @@ font-family: 'Poppins', sans-serif;
 .tasks p{
     margin: 2.5rem auto 0.5rem;
 }
-.hidden-role1, .hidden-role2, .hidden-role3{
+.hidden1, .hidden2, .hidden3{
     display: none;
     text-align: center;
 }
@@ -82,6 +91,7 @@ font-family: 'Poppins', sans-serif;
 .portfolio{
     width: 100%;
     text-align: center;
+    margin: 3rem auto 1rem;
 }
 .port{
     margin: 4rem;
