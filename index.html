@@ -19,17 +19,49 @@
     <div class="container-fluid main-body">
 
              <!--    Navigation bar        -->
-        <div class="sticky">
-            <nav class="nav nav-pills nav-justified container-fluid sticky-top">
-                <a class="nav-link" aria-current="page" href="#delani">Home</a>
-                <a class="nav-link" href="#about">About Us</a>
-                <a class="nav-link" href="#services">Services</a>
-                <a class="nav-link" href="#we-do">What We Do</a>
-                <a class="nav-link" href="#portfolio">Portfolio</a>
-                <a class="nav-link" href="#contact">Contact</a>
-            </nav> 
-        </div>
+        <!-- <nav class="navbar navbar-expand-lg">
+            <div class="sticky container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="nav navbar navbar-expand-lg collapse navbar-collapse nav-pills nav-justified container-fluid sticky-top" id="navbarTogglerDemo02">
+                    <a class="nav-link" aria-current="page" href="#delani">Home</a>
+                    <a class="nav-link" href="#about">About Us</a>
+                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link" href="#we-do">What We Do</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </nav> 
+            </div>
+        </nav> -->
 
+        <nav class="navbar stticky navbar-expand-xs navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Delani Studio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#we-do">What We Do</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+              </div>
+            </div>
+          </nav>
 
         <!-- section 1 -->
         <div id="delani" class="landing">
@@ -207,24 +239,28 @@
 
         <div id="contact" class="contact section">
             <h2>CONTACT US</h2>
-            <form action="submit">
+            <form action="  " id="userRequest">
                 
                 <div class="inputs container">
                     <div class="info">
-                        <input type="text" id="name" required placeholder="Name">
+                        <input type="text" id="name" value="" placeholder="First and Last Name">
 
-                    <input type="email" id="mail" required placeholder="Name">
+                    <input type="email" id="mail" value="" placeholder="Email Address">
                     </div>
                 </div>
 
                 <textarea name="message" id="textarea" cols="20" rows="10" placeholder="Type your text here . . ."></textarea>
+
+                <div class="button">
+                    <button type="submit" class="btn-primary btn " id="btn" onclick="validate()">Submit Request</button>
+                </div>
 
             </form>
 
         </div>
         
         <div id="footer" class="footer section">
-            <div class="social row row-cols-auto">
+            <div class="social row row-cols-auto row-cols-xs-9 row-cols-sm-9 row-cols-md-9 row-cols-lg-9">
                 <a href=""><img src="./images/icons/twitter.png" alt="twitter"></a>
                 <a href=""><img src="./images/icons/dribble.png" alt="dribble"></a>
                 <a href=""><img src="./images/icons/facebook.png" alt="facebook"></a>

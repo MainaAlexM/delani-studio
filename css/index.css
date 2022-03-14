@@ -5,16 +5,20 @@ font-family: 'Poppins', sans-serif;
     margin-top: -10vh;
 
 } */
-.nav{
-    background-color: rgb(236, 220, 220);    
+.sticky{
+    background-color: rgb(247, 241, 193);    
     height: 10vh;
     padding: 1.5rem 0rem;
     font-size: larger;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 0.3s;
 }
-.sticky{
+/* .sticky{
     position: sticky;
     top:0;
-}
+} */
 .nav ul li a{
     color: white;
 }
@@ -164,12 +168,16 @@ input::-webkit-input-placeholder {
     color: white;
 }
 .info input, textarea{
-    margin: 2rem auto;
+    margin: 0.5rem auto;
     color: white;
     border: solid white thin;
     background: none;
 }
-
+.button{
+    margin: 0.5 auto;
+    padding: 1em;
+    position: inherit;
+}
 /* footer section */
 .social{
     justify-content: space-around;
